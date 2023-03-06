@@ -1,6 +1,6 @@
 [package]
 name = "parse-sql-statements-wasm"
-version = "0.1.0"
+version = "0.1.2"
 authors = ["Fwio <624835339@qq.com>"]
 description = "A wrapper of sqlparser, exposing the `parse_statements` method only."
 repository = "https://github.com/3fuyang/parse-sql-statements-wasm"
