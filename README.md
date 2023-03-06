@@ -7,5 +7,9 @@ This is a `wasm` wrapper of [sqlparser](https://crates.io/crates/sqlparser), exp
 [wasm-pack](https://github.com/rustwasm/wasm-pack) required.
 
 ```shell
+# native in browser
+wasm-pack build --target web
+
+# esm integration
 wasm-pack build --target bundler
 ```
