@@ -8,7 +8,7 @@ This is a `wasm` wrapper of [sqlparser](https://crates.io/crates/sqlparser), exp
 interface ParseResult {
   /** Indicates whether or not the given sql is valid. */
   success: boolean
-  /** You may unserialize this using `JSON.parse()`. */
+  /** You may deserialize this using `JSON.parse()`. */
   serialzed_result: string
 }
 
